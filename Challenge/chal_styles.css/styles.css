@@ -1,0 +1,80 @@
+html {
+    background-color: pink;
+    font-size: 30px;
+    margin: 0 auto;
+ }
+
+nav footer{
+    background-color: pink;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+nav a{
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 200px;
+}
+nav p{
+    text-align: center;
+    font-size: 0.4em;
+    color: white;
+    margin: 0 auto;
+    grid-row: 1/2;
+    width: 300px;
+}
+
+header a:hover{
+    color: black
+}
+header{
+    background-color: pink;
+    text-align: center;
+    margin: 10px auto;
+}
+header:h1{
+    background-color: pink;
+    color: white;
+    margin: 0px;
+    font-size: 1.5em;
+    text-align: center;
+}
+img{
+    width: 100px;
+    text-align: center;
+    margin: 1em auto;
+
+}
+main{
+    width: 300px;
+    background-color: pink;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+#content{
+    grid-column: 1/2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    font-style: bold;
+    font-size: .5em;
+    margin: 0 auto;
+    text-align: left;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+}
+div p{
+    font-size: 1em;
+    color: white;
+    width: 200px;
+    margin: 0 auto;
+}
+footer {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.5em;
+    width: 300px;
+}

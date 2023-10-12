@@ -1,0 +1,30 @@
+
+div img{
+    width:1000px;
+    height: 400px;
+    border-radius: 0;
+    border: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+main{
+    padding-top:350px; 
+    width: 200px;
+    height: 1000px;  
+    background-color: gray;  
+    display: inline;
+    margin: 0;
+}
+img{
+    border-radius: 85%;
+    width: 40%;
+    height: 150%;
+    padding: 20px;
+    background-color: rgb(81, 80, 80);
+    box-sizing: border-box;
+    inline-size: 17.4%;
+    margin-top: 0;
+    border: 0 auto;
+}
+

@@ -216,6 +216,7 @@ h2{
     word-spacing: 5px;
 }
 #words-grid{
+    max-width: 1600px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 30px;
@@ -250,6 +251,7 @@ h2{
     word-spacing: 10px;
 }
 #rivers-grid{
+    max-width: 1600px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;

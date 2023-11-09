@@ -1,0 +1,55 @@
+body{
+    background: black;
+    border-radius: 50px;
+    margin: 0;
+    padding: 10px;
+    height: 500px;
+}
+header img{
+    display: block;
+    width: 340px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0;
+}
+main{
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+}
+.timing{
+    color: rgb(161, 161, 245);
+    font-size: 1em;
+}
+.post{
+    font-size: 2em;
+    font-weight: bold;
+}
+.big-paragraph{
+    width: 250px;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(148, 148, 237);
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    gap: 10px;
+    height: auto;
+}
+footer div{
+    position: relative;
+    padding: 10px;
+    height: 100%;
+}
+footer div p:last-child{
+    border-right: 2px solid white;
+    height: 100%
+}

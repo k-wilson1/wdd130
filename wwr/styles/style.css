@@ -260,6 +260,7 @@ h2{
     justify-content: center;
     font-size: 5em;
     padding: 10px;
+    margin: 0 auto;
 }
 .salmon{
     grid-column: 1/2;

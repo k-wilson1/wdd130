@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Skranji&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
     font-family: "Skranji";
     font-size: 22px;
-    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Skranji&display=swap');
+    padding: 50px;
+    
 }
 header{
     background-color:#7eb38b ;
     font-family: Skranji;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-rows: 150px 50px;
+    grid-template-columns: 50px auto;
     justify-self: center;
     align-self: center;
 }

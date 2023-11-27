@@ -29,9 +29,6 @@
                 <p>November 16: Booster night at Casa Ole.</p>
                 <p>February 9: Valentines Dance</p>
             </section>
-            <div class="past-event">
-                <img class="picofpto" src="images/ptomembers.png" alt="Ice Cream">
-                <p>Congratulations to the 6th and 7th graders who won the Membership drive and earned ice cream at lunch.</p>
             </div>
             <section id="sponsor">
                 <img class="wellsfargo" src="images/wellsfargo.png" alt="Wells Fargo">
@@ -40,6 +37,101 @@
                 <img class="walmart" src="images/walmart.png" alt="Walmart">
                 <p>Thank you to Walmart for their donation of glowsticks for the Halloween dance.</p>
             </section>
+            <!-- Container for the image gallery -->
+            <div class="container">
+
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                    <img src="images/ptomembers.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                    <img src="images/dance.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                    <img src="images/dance_group.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                    <img src="images/glowsticks.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                    <img src="images/dance_kid.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                    <img src="images/dance_kid2.png" style="width:100%">
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <!-- Image text -->
+                <div class="caption-container">
+                <p id="caption"></p>
+                </div>
+            
+                <!-- Thumbnail images -->
+                <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="images/ptomembers.png" style="width:100%" onclick="currentSlide(1)" alt="The Board">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/dance.png" style="width:100%" onclick="currentSlide(2)" alt="Halloween Dance">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/dance_group.png" style="width:100%" onclick="currentSlide(3)" alt="Kids at Halloween Dance">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/glowsticks.png" style="width:100%" onclick="currentSlide(4)" alt="Pto Selling Glowsticks">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/dance_kid.png" style="width:100%" onclick="currentSlide(5)" alt="Kids Dancing">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/dance_kid2.png" style="width:100%" onclick="currentSlide(6)" alt="Dressing up for Halloween Dance">
+                </div>
+                </div>
+            </div>
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("demo");
+                  let captionText = document.getElementById("caption");
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                  captionText.innerHTML = dots[slideIndex-1].alt;
+                }
+                </script>
         </main>
         <footer>
             <div id="address">

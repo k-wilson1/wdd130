@@ -207,7 +207,6 @@ footer{
 .upcoming-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: gray;
 }
 .volunteer{
@@ -216,46 +215,30 @@ footer{
 }
 #volunteer-img{
     grid-column: 1/2;
-    grid-row: 1/2;
 }
 #calendar{
     grid-column: 2/4;
-    grid-row: 1/2;
     text-align: center;
     margin: 0;
 }
-#center{
-    grid-column: 2/4;
-    grid-row: 2/3;
-    position: relative;
+.sponsors{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#heading-sponsor{
+    grid-column: 1 / 3;
     text-align: center;
 }
-#wellsfargo{
-    grid-column: 2/3;
-    grid-row: 3/4;
-    margin: 0;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+
+#left{
+    grid-column: 1 / 2;
     text-align: center;
 }
-#wellsfargo p{
-    grid-column: 2/3;
-    grid-row: 4/5;
+
+#right{
+    grid-column: 2 / 3;
     text-align: center;
-    width: 60%;
-}
-#wal-mart{
-    grid-column: 3/4;
-    grid-row: 3/4;
-    text-align: center;
-}
-#wal-mart p{
-    grid-column: 3/4;
-    grid-row: 4/5;
-    text-align: center;
-    width: 60%;
 }
 /* Position the image container (needed to position the left and right arrows) */
 .container {

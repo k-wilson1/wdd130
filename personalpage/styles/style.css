@@ -223,7 +223,6 @@ footer{
     grid-row: 1/2;
     text-align: center;
     margin: 0;
-    width: 100%;
 }
 #center{
     grid-column: 2/4;

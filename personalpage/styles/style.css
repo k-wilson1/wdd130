@@ -207,7 +207,7 @@ footer{
 .upcoming-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr 1fr;
     background-color: gray;
 }
 #volunteer{
@@ -224,7 +224,7 @@ footer{
     width: 100%;
 }
 #sponsor{
-    grid-column: 1/4;
+    grid-column: 2/4;
     grid-row: 2/3;
     text-align: center;
     position: relative;
@@ -233,49 +233,63 @@ footer{
     align-items: center;
     align-content: center;
 }
+#sponsor h1{
+    font-family: Alumni Sans Collegiate One, sans-serif;
+    font: 100px;
+    margin: 0;
+}
 #wellsfargo{
-    grid-column: 1/2;
+    grid-column: 2/3;
     grid-row: 3/4;
     margin: 20px;
-    padding: 20px;
     justify-items: center;
     justify-content: center;
     align-items: center;
     align-content: center;
+    text-align: center;
 }
 #wellsfargo p{
-    grid-column: 1/2;
+    grid-column: 2/3;
     grid-row: 4/5;
-    text-align: center;
     width: 60%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 #wal-mart{
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 3/4;
     margin: 20px;
     justify-items: center;
     justify-content: center;
     align-items: center;
     align-content: center;
+    text-align: center;
 }
 #wal-mart p{
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 4/5;
-    text-align: center;
     width: 60%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 /* Position the image container (needed to position the left and right arrows) */
 .container {
     position: relative;
-    text-align: center;
+    text-align: right;
     margin: 0;
     max-width: 1600;
-    grid-column: 3/4;
-    grid-row: 3/4;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    justify-items: right;
+    justify-content: right;
+    align-items: right;
+    align-content: right;
   }
   
   /* Hide the images by default */

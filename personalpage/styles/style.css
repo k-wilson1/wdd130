@@ -237,6 +237,7 @@ footer{
     grid-column: 1/2;
     grid-row: 3/4;
     margin: 20px;
+    padding: 20px;
     justify-items: center;
     justify-content: center;
     align-items: center;
@@ -246,7 +247,7 @@ footer{
     grid-column: 1/2;
     grid-row: 4/5;
     text-align: center;
-    width: 80%;
+    width: 60%;
 }
 #wal-mart{
     grid-column: 2/3;
@@ -261,7 +262,7 @@ footer{
     grid-column: 2/3;
     grid-row: 4/5;
     text-align: center;
-    width: 80%;
+    width: 60%;
 }
 /* Position the image container (needed to position the left and right arrows) */
 .container {

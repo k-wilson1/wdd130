@@ -143,7 +143,6 @@ footer{
   .container {
     position: relative;
     text-align: center;
-    background-color: maroon;
     margin: 0;
     max-width: 1600;
     grid-column: 3/4;

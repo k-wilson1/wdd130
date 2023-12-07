@@ -142,10 +142,12 @@ footer{
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
-    max-width: 1400px;
     text-align: center;
     background-color: maroon;
     margin: 0;
+    max-width: 1600;
+    grid-column: 3/4;
+    grid-row: 3/4;
   }
   
   /* Hide the images by default */
@@ -292,7 +294,7 @@ footer{
 .upcoming-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: maroon;
 }
 #volunteer{
@@ -306,30 +308,30 @@ footer{
     grid-row: 1/2;
     text-align: center;
     margin: 0;
+    width: 100%;
 }
-.sponsor{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+#sponsor{
+    grid-column: 1/4;
+    grid-row: 2/3;
     text-align: center;
     position: relative;
 }
 #wellsfargo{
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 3/4;
     margin: 0;
 }
 #wellsfargo p{
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 4/5;
     text-align: center;
 }
 #wal-mart{
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 3/4;
 }
 #wal-mart p{
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 4/5;
     text-align: center;
 }

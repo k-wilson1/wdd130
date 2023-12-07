@@ -207,14 +207,16 @@ footer{
 .upcoming-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: gray;
 }
-#volunteer{
-    grid-column: 1/2;
-    grid-row: 1/2;
+.volunteer{
     text-align: center;
     margin: 0;
+}
+#volunteer-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 #calendar{
     grid-column: 2/4;
@@ -224,20 +226,15 @@ footer{
     width: 100%;
 }
 .sponsor{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-column: 2/4;
+    grid-row: 2/3;
     position: relative;
-}
-.sponsor h1{
-    font-family: Alumni Sans Collegiate One, sans-serif;
-    font: 100px;
-    margin: 0;
+    text-align: center;
 }
 #wellsfargo{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    margin: 20px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 0;
     justify-items: center;
     justify-content: center;
     align-items: center;
@@ -245,19 +242,21 @@ footer{
     text-align: center;
 }
 #wellsfargo p{
-    grid-column: 1/2;
-    grid-row: 2/3;
+    grid-column: 2/3;
+    grid-row: 4/5;
     text-align: center;
+    width: 60%;
 }
 #wal-mart{
-    grid-column: 2/3;
-    grid-row: 1/2;
+    grid-column: 3/4;
+    grid-row: 3/4;
     text-align: center;
 }
 #wal-mart p{
-    grid-column: 2/3;
-    grid-row: 2/3;
+    grid-column: 3/4;
+    grid-row: 4/5;
     text-align: center;
+    width: 60%;
 }
 /* Position the image container (needed to position the left and right arrows) */
 .container {

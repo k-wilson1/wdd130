@@ -229,7 +229,7 @@ footer{
     grid-template-rows: 1fr 1fr;
     position: relative;
 }
-#sponsor h1{
+.sponsor h1{
     font-family: Alumni Sans Collegiate One, sans-serif;
     font: 100px;
     margin: 0;

@@ -223,15 +223,11 @@ footer{
     margin: 0;
     width: 100%;
 }
-#sponsor{
-    grid-column: 2/4;
-    grid-row: 2/3;
-    text-align: center;
+.sponsor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     position: relative;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
 }
 #sponsor h1{
     font-family: Alumni Sans Collegiate One, sans-serif;
@@ -239,8 +235,8 @@ footer{
     margin: 0;
 }
 #wellsfargo{
-    grid-column: 2/3;
-    grid-row: 3/4;
+    grid-column: 1/2;
+    grid-row: 1/2;
     margin: 20px;
     justify-items: center;
     justify-content: center;
@@ -249,33 +245,18 @@ footer{
     text-align: center;
 }
 #wellsfargo p{
-    grid-column: 2/3;
-    grid-row: 4/5;
-    width: 60%;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
     text-align: center;
 }
 #wal-mart{
-    grid-column: 3/4;
-    grid-row: 3/4;
-    margin: 20px;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
     text-align: center;
 }
 #wal-mart p{
-    grid-column: 3/4;
-    grid-row: 4/5;
-    width: 60%;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
     text-align: center;
 }
 /* Position the image container (needed to position the left and right arrows) */

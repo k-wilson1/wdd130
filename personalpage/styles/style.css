@@ -295,7 +295,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    background-color: maroon;
+    background-color: gray;
 }
 #volunteer{
     grid-column: 1/2;

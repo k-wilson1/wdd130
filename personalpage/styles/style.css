@@ -239,15 +239,17 @@ footer{
 
 #left{
     grid-column: 1 / 2;
-    text-align: center;
+    text-align: left;
+    padding: 20px;
 }
 
 #right{
     grid-column: 2 / 3;
-    text-align: center;
+    text-align: left;
+    padding: 20px;
 }
 #right p, #left p{
-    width: 40%;
+    width: 200px;
     text-align: center;
     grid-row: 2/3;
 }

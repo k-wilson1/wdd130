@@ -226,7 +226,7 @@ footer{
 .sponsors{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 20% 40% 40%;
     background-color: gray;
     margin: 0;
 }
